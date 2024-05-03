@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+.btn-dark {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+.backbtn {
+  background-color: blue;
+  width: 40px;
+  border-radius: 15px;
+  padding: 3px;
+  cursor: pointer;
+  display: flex;
+}
+.cerclebtn button {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+}
+
+.containerquotes {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quotesform {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  width: 500px;
+  height: 140px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+}
+
+.iconback {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+}
+.iconback button {
+  background-color: #34d399;
+  border: none;
+  border-radius: 100%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
